@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* src/index.css */
+
+/* src/index.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6; /* Light gray background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.card {
+  width: 100%;
+  max-width: 400px; /* Maximum width for the card */
+  padding: 24px; /* Padding inside the card */
+  background-color: white; /* White background for the card */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+  text-align: center; /* Center the heading */
+  font-size: 24px; /* Font size for the heading */
+  font-weight: 600; /* Bold font */
+  margin-bottom: 16px; /* Margin below the heading */
+}
+
+.form-group {
+  margin-bottom: 16px; /* Space between form groups */
+}
+
+input {
+  width: 100%; /* Full width input */
+  padding: 12px; /* Padding inside input */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 4px; /* Rounded corners */
+}
+
+button {
+  width: 100%; /* Full width button */
+  padding: 12px; /* Padding inside button */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size for button text */
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  margin: 16px 0; /* Space above and below */
+}
+
+.separator hr {
+  flex-grow: 1; /* Allow horizontal line to grow */
+  border: 1px solid #ccc; /* Line color */
+}
+
+.separator span {
+  padding: 0 8px; /* Space around the text */
+  color: #666; /* Gray text */
+}
+
+.toggle-link {
+  color: #007bff; /* Blue text for toggle link */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.toggle-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.google-button {
+  width: 100%; /* Full width */
+  padding: 12px; /* Padding inside */
+  border: 1px solid #ccc; /* Border */
+  background-color: white; /* White background */
+  color: #333; /* Dark text */
+  display: flex; /* Flexbox layout */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  cursor: pointer; /* Pointer cursor */
+}
+
+.google-button:hover {
+  background-color: #f0f0f0; /* Light gray on hover */
+}
+
+.google-button svg {
+  margin-right: 8px; /* Space between icon and text */
+}
